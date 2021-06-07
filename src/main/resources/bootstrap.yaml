@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-vault-example
+  cloud:
+    vault:
+      kv:
+        enabled: true
+      scheme: http
+      token: 12345
